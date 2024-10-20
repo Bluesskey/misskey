@@ -530,11 +530,6 @@ interface Watcher {
 /**
  * 常にメモリにロードしておく必要がないような設定情報を保管するストレージ(非リアクティブ)
  */
-<<<<<<< HEAD
-import lightTheme from '@/themes/l-light-bs.json5';
-import darkTheme from '@/themes/d-dark-bs.json5';
-=======
->>>>>>> b1aac6acc35f6a872abeb084d2c6f4dcfabf9f42
 
 export class ColdDeviceStorage {
 	public static default = {
